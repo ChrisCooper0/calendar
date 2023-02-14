@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <img
             alt="profile picture"
-            src="/chris.jpeg"
+            src="./chris.jpeg"
             className="rounded-full w-32 h-32 outline-1 outline-cyan-500 outline"
           />
           <div className="flex flex-col gap-4">
