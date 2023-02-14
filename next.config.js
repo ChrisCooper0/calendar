@@ -4,6 +4,7 @@ const nextConfig = {
   env: {
     CALLINK: "chriscooper/30min",
   },
+  basePath: "/consulting",
 };
 
 module.exports = nextConfig;
