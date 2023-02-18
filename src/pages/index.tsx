@@ -14,6 +14,7 @@ export default function Home() {
       });
     })();
   }, []);
+
   return (
     <>
       <Head>
@@ -23,25 +24,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col justify-center items-center gap-14 w-full h-full mt-10 md:mt-16 px-5">
+        <div id="blob"></div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+          {/*  eslint-disable-next-line @next/next/no-img-element */}
           <img
             alt="profile picture"
             src="https://chriscooper0.github.io/calendar/chris.jpeg"
             className="rounded-full w-32 h-32 outline-1 outline-cyan-500 outline"
           />
           <div className="flex flex-col gap-4">
-            <h1 className="text-3xl font-medium md:text-4xl text-slate-200">
+            <h1 className="text-3xl font-medium md:text-4xl text-white">
               Chris Cooper
             </h1>
             <div className="flex flex-col gap-1.5">
-              <p className="font-extralight text-slate-100">
+              <p className="font-extralight text-white">
                 Hey, I&apos;m Chris 👋
               </p>
-              <p className="font-extralight text-slate-100">
+              <p className="font-extralight text-white">
                 I&apos;m a self-taught Software Developer, primarily focussed on
                 the front-end.
               </p>
-              <p className="font-extralight text-slate-100">
+              <p className="font-extralight text-white">
                 Book in a call with me today.
               </p>
               <div className="flex flex-row gap-2">
