@@ -57,11 +57,12 @@ export default function Home() {
                 Hey, I&apos;m Chris 👋
               </p>
               <p className="font-extralight text-white">
-                I&apos;m a self-taught Software Developer, primarily focussed on
-                the front-end.
+                I&apos;m a Web Developer. I work with eCommerce companies to
+                increase revenue (via on-page SEO) and improve the customer
+                shopping experience.
               </p>
               <p className="font-extralight text-white">
-                Book in a call with me today.
+                Book in a call with me.
               </p>
               <div className="flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/chris--cooper/">
