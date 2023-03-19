@@ -46,7 +46,7 @@ export default function Home() {
           <img
             alt="profile picture"
             src="https://chriscooper0.github.io/calendar/chris.jpeg"
-            className="rounded-full w-32 h-32 outline-1 outline-cyan-500 outline"
+            className="rounded-full w-32 h-32 ring-cyan-500 ring-1"
           />
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-medium md:text-4xl text-white">

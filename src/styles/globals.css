@@ -25,6 +25,7 @@ body {
   background-color: white;
   height: 500px;
   aspect-ratio: 1;
+  z-index: -1;
   position: absolute;
   left: 50%;
   top: 50%;
