@@ -58,8 +58,7 @@ export default function Home() {
               </p>
               <p className="font-extralight text-white">
                 I&apos;m a Web Developer. I work with eCommerce companies to
-                increase revenue (via on-page SEO) and improve the customer
-                shopping experience.
+                increase revenue by improving the customer shopping experience.
               </p>
               <p className="font-extralight text-white">
                 Book in a call with me.
