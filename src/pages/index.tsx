@@ -57,8 +57,9 @@ export default function Home() {
                 Hey, I&apos;m Chris 👋
               </p>
               <p className="font-extralight text-white">
-                I&apos;m a Web Developer. I work with eCommerce companies to
-                increase revenue by improving the customer shopping experience.
+                I&apos;m a Web Developer. I work with eCommerce companies,
+                helping to increase revenue by improving the customer shopping
+                experience.
               </p>
               <p className="font-extralight text-white">
                 Book in a call with me.
