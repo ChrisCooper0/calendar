@@ -22,7 +22,7 @@ export default function Home() {
         <title>Chris Cooper</title>
         <meta name="description" content="Chris Cooper" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="./favicon.svg" />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
