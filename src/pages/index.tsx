@@ -3,6 +3,7 @@ import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import Script from "next/script";
 
 export default function Home() {
   useEffect(() => {
@@ -77,11 +78,11 @@ export default function Home() {
           with me!
         </p>
         <div>
-          <script
+          <Script
             src="https://chriscooper.ck.page/commerce.js"
             async
             defer
-          ></script>
+          ></Script>
           <a
             target="_blank"
             className="convertkit-button"
