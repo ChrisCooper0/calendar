@@ -39,7 +39,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <main className="flex flex-col justify-center items-center gap-14 w-full h-full mt-10 md:mt-16 px-5">
+      <main className="flex flex-col justify-center items-center gap-10 w-full h-full mt-10 md:mt-16 px-5">
         <div id="blob"></div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           {/*  eslint-disable-next-line @next/next/no-img-element */}
@@ -57,12 +57,9 @@ export default function Home() {
                 Hey, I&apos;m Chris 👋
               </p>
               <p className="font-extralight text-white">
-                I&apos;m a Web Developer. I work with eCommerce companies,
-                helping to increase revenue by improving the customer shopping
-                experience.
-              </p>
-              <p className="font-extralight text-white">
-                Book in a call with me.
+                I&apos;m a Web Developer, mostly working in the front-end on
+                eCommerce applications. I also help mentor aspiring & junior
+                developers to get their first jobs.
               </p>
               <div className="flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/chris--cooper/">
@@ -74,6 +71,26 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <p className="font-extralight text-white">
+          PWYW (*Pay What You Want) for my CV Template or book in a free call
+          with me!
+        </p>
+        <div>
+          <script
+            src="https://chriscooper.ck.page/commerce.js"
+            async
+            defer
+          ></script>
+          <a
+            target="_blank"
+            className="convertkit-button"
+            href="https://chriscooper.ck.page/products/cv-template"
+            data-commerce
+            rel="noreferrer"
+          >
+            CV Template
+          </a>
         </div>
         <Cal
           calLink={process.env.CALLINK ?? ""}
