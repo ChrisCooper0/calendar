@@ -86,7 +86,7 @@ export default function Home() {
           <a
             target="_blank"
             className="convertkit-button"
-            href="https://chriscooper.ck.page/products/cv-template"
+            href="https://chriscooper.ck.page/products/web-dev-cv-template"
             data-commerce
             rel="noreferrer"
           >
