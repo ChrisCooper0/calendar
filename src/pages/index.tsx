@@ -90,7 +90,7 @@ export default function Home() {
             data-commerce
             rel="noreferrer"
           >
-            CV Template
+            My CV Template
           </a>
         </div>
         <Cal
