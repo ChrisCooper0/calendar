@@ -74,8 +74,7 @@ export default function Home() {
           </div>
         </div>
         <p className="font-extralight text-white">
-          PWYW (*Pay What You Want) for my CV Template or book in a free call
-          with me!
+          Get my CV Template or book in a free call with me!
         </p>
         <div>
           <Script
