@@ -58,9 +58,8 @@ export default function Home() {
                 Hey, I&apos;m Chris 👋
               </p>
               <p className="font-extralight text-white">
-                I&apos;m a Web Developer, mostly working in the front-end on
-                eCommerce applications. I also help mentor aspiring & junior
-                developers to get their first jobs.
+                I&apos;m a self-taught Software Developer. I also help mentor
+                aspiring & junior developers get their first jobs.
               </p>
               <div className="flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/chris--cooper/">
@@ -74,7 +73,8 @@ export default function Home() {
           </div>
         </div>
         <p className="font-extralight text-white">
-          Get my CV Template or book in a free call with me!
+          Purchase my Junior Developer CV template or book in a free call with
+          me!
         </p>
         <div>
           <Script
@@ -89,7 +89,7 @@ export default function Home() {
             data-commerce
             rel="noreferrer"
           >
-            My CV Template
+            Junior Developer CV Template
           </a>
         </div>
         <Cal
