@@ -73,9 +73,9 @@ export default function Home() {
           </div>
         </div>
         <p className="font-extralight text-white">
-          Purchase my Junior Developer CV template or book in a free call with
-          me!
+          Purchase the Junior Developer CV template below.
         </p>
+
         <div>
           <Script
             src="https://chriscooper.ck.page/commerce.js"
@@ -92,10 +92,15 @@ export default function Home() {
             Junior Developer CV Template
           </a>
         </div>
-        <Cal
+        {/* <Cal
           calLink={process.env.CALLINK ?? ""}
           style={{ width: "100%", height: "100%", overflow: "hidden" }}
-        />
+        /> */}
+        <p className="font-extralight text-white max-w-2xl mt-16">
+          Note: The Free Web Dev calls are currently stopped due to
+          availability. Please get in touch via LinkedIn or Email if you would
+          like to join the waitlist for when they re-open.
+        </p>
       </main>
     </>
   );
