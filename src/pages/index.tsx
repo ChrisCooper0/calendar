@@ -39,8 +39,16 @@ export default function Home() {
           `,
           }}
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
-      <main className="flex flex-col justify-center items-center gap-10 w-full h-full mt-10 md:mt-16 px-5">
+      {/*  */}
+      <main className="flex flex-col justify-center items-center  gap-10 w-full h-full pt-10 md:pt-16 px-5 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
         <div id="blob"></div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           {/*  eslint-disable-next-line @next/next/no-img-element */}
@@ -58,8 +66,9 @@ export default function Home() {
                 Hey, I&apos;m Chris 👋
               </p>
               <p className="font-extralight text-white">
-                I&apos;m a self-taught Software Developer. I also help mentor
-                aspiring & junior developers get their first jobs.
+                I&apos;m a self-taught Software Developer. I also mentor
+                aspiring & junior developers, helping secure their first jobs in
+                tech.
               </p>
               <div className="flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/chris--cooper/">
@@ -92,15 +101,15 @@ export default function Home() {
             Junior Developer CV Template
           </a>
         </div>
-        {/* <Cal
+        <Cal
           calLink={process.env.CALLINK ?? ""}
           style={{ width: "100%", height: "100%", overflow: "hidden" }}
-        /> */}
-        <p className="font-extralight text-white max-w-2xl mt-16">
+        />
+        {/* <p className="font-extralight text-white max-w-2xl mt-16">
           Note: The Free Web Dev calls are currently stopped due to
           availability. Please get in touch via LinkedIn or Email if you would
           like to join the waitlist for when they re-open.
-        </p>
+        </p> */}
       </main>
     </>
   );
