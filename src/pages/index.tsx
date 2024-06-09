@@ -43,13 +43,13 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
       {/*  */}
-      <main className="flex flex-col justify-center items-center  gap-10 w-full h-full pt-10 md:pt-16 px-5 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
-        <div id="blob"></div>
+      <main className="flex flex-col justify-center items-center  gap-10 w-full h-full pt-10 md:pt-16 px-5">
+        {/* <div id="blob"></div> */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           {/*  eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -67,8 +67,8 @@ export default function Home() {
               </p>
               <p className="font-extralight text-white">
                 I&apos;m a self-taught Software Developer. I also mentor
-                aspiring & junior developers, helping secure their first jobs in
-                tech.
+                aspiring & junior developers, helping them break into the tech
+                industry as I have done.
               </p>
               <div className="flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/chris--cooper/">
@@ -82,7 +82,8 @@ export default function Home() {
           </div>
         </div>
         <p className="font-extralight text-white">
-          Purchase the Junior Developer CV template below.
+          Get your copy of the Junior Developer CV template by clicking the
+          button below or book in a free mentoring call.
         </p>
 
         <div>
@@ -98,18 +99,13 @@ export default function Home() {
             data-commerce
             rel="noreferrer"
           >
-            Junior Developer CV Template
+            CV template
           </a>
         </div>
         <Cal
           calLink={process.env.CALLINK ?? ""}
           style={{ width: "100%", height: "100%", overflow: "hidden" }}
         />
-        {/* <p className="font-extralight text-white max-w-2xl mt-16">
-          Note: The Free Web Dev calls are currently stopped due to
-          availability. Please get in touch via LinkedIn or Email if you would
-          like to join the waitlist for when they re-open.
-        </p> */}
       </main>
     </>
   );
