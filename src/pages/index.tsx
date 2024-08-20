@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <p className="font-extralight text-white">
           Get your copy of the Junior Developer CV template by clicking the
-          button below or book in a free mentoring call.
+          button below or book in a mentoring call.
         </p>
 
         <div>
@@ -99,7 +99,7 @@ export default function Home() {
             data-commerce
             rel="noreferrer"
           >
-            CV template
+            Developer CV template
           </a>
         </div>
         <Cal
