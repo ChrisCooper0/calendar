@@ -102,10 +102,21 @@ export default function Home() {
             Developer CV template
           </a>
         </div>
-        <Cal
+        <h3 className="font-semibold text-white">
+          Sorry, calls have stopped right now but if you really do want to get
+          in touch, connect with me on{" "}
+          <a
+            className="text-blue-500"
+            href="https://www.linkedin.com/in/chris--cooper/"
+          >
+            LinkedIn
+          </a>
+          .
+        </h3>
+        {/* <Cal
           calLink={process.env.CALLINK ?? ""}
           style={{ width: "100%", height: "100%", overflow: "hidden" }}
-        />
+        /> */}
       </main>
     </>
   );
